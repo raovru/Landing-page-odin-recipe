@@ -87,6 +87,21 @@ button{
 .box_3{
     background-color: #E5E7EB;
     height: 350px;
+    color: black;
+    height: 350px;
+    padding: 0px 25% 0px 25%;
+}
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-top: 12.5%;
+    align-items: center;
+}
+.quoter{
+    display: flex;
+    flex-direction: row-reverse;
 }
 .box_4{
     height: 300px;
