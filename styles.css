@@ -38,7 +38,7 @@
     justify-content: center;
     align-items: center;
 }
-button{
+.button1{
     margin-top: 10px;
     background-color: #3822F6;
     color: white;
@@ -88,7 +88,6 @@ button{
     background-color: #E5E7EB;
     height: 350px;
     color: black;
-    height: 350px;
     padding: 0px 25% 0px 25%;
 }
 .quote {
@@ -104,9 +103,31 @@ button{
     flex-direction: row-reverse;
 }
 .box_4{
-    height: 300px;
+    height: 350px;
+    color: #F9FAF8;
+}
+.box_4_flex{
+    display: flex;
+    margin: 200px;
+    background-color: #3822F6;
+    justify-content: space-between;
+    padding: 2% 3% 2% 3%;
+    border-radius: 10px;
+}
+.action{
+    font-size: 36px;
+    font-weight: bold;
+}
+#button2{
+    background-color: #3822F6;
+    border-color: white;
+    color: white;
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 0px 60px 0px 60px;
 }
 *{
     margin: 0px;
     font-family: 'Roboto';
+
 }
